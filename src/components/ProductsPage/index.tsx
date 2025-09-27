@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import ProductList from '../../Landing/ProductList'
 import { sampleProducts } from '../../mocks/sampleProducts'
 

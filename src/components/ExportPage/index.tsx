@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { sampleProducts } from '../../mocks/sampleProducts'
 import ExportForm from '../../Landing/ExportForm'
 
