@@ -27,13 +27,8 @@ function App() {
        
 
         <p  className="app-main">
-          <h4>Introduction to Maritime Shipping Book and Claim</h4>
-          The maritime sector plays a crucial role in global trade. Although it is responsible for more than 80% of world trade by volume, it only contributes around 3% of total global greenhouse gas (GHG) emissions annually. The International Maritime Organization (IMO) and the European Union have outlined stringent pathways for reducing emissions, necessitating the adoption of low and zero-emission fuels.
-
-          However, embarking on that journey faces hurdles such as these fuels’ high cost and availability, which is particularly problematic for price-sensitive cargo (e.g., commodities). This underscores the importance of market-based mechanisms like book and claim, which offer transparency into supply chain emissions and can accelerate the adoption of low and zero-emission fuels by connecting heavy transport decarbonization leaders to corporate consumers, as has been extensively discussed within the Community.
-
-          Implementing a maritime book and claim system presents several challenges, including the diverse range of fuels and emissions factors, the regulatory transition to full lifecycle assessment of fuel emissions (i.e., well-to-wake, which the IMO recently adopted sector-wide in July 2023), and the impact of vessel type and size on energy efficiency and, thus, in emission intensity metrics.
-
+          <h4>Introduction to Winlite Exports</h4>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
         </p>
         <main className="app-main">
