@@ -1,0 +1,133 @@
+@import './variables.scss';
+
+
+.app-header {
+    background: linear-gradient(90deg, #fff, #f1f5f9);
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 4px rgba(16, 24, 40, 0.04);
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 1.125rem;
+    letter-spacing: -0.5px
+}
+
+.app-header nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: $accent
+}
+
+
+.app-main {
+    flex: 1;
+    padding: 1.25rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%
+}
+
+.app-footer {
+    padding: 1rem;
+    text-align: center;
+    color: $muted
+}
+
+
+.muted {
+    color: $muted
+}
+
+.search-text {
+    border-radius: 10%;
+}
+.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.75rem
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background: $panel;
+    border-radius: $radius;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.03)
+}
+
+.product-item.unavailable {
+    opacity: 0.6;
+    filter: grayscale(0.1)
+}
+
+.product-item .left {
+    display: flex;
+    flex-direction: column
+}
+
+.product-item .name {
+    font-weight: 600
+}
+
+.product-item .sku {
+    font-size: 0.85rem;
+    color: $muted
+}
+
+.product-item .right {
+    text-align: right
+}
+
+
+.export-form {
+    background: $panel;
+    padding: 1rem;
+    border-radius: $radius;
+    box-shadow: 0 1px 4px rgba(16, 24, 40, 0.04)
+}
+
+.selectors {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-height: 320px;
+    overflow: auto;
+    margin-bottom: 0.75rem
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.checkbox input {
+    width: 16px;
+    height: 16px
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem
+}
+
+.btn {
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer
+}
+
+.btn.primary {
+    background: $accent;
+    color: white
+}
